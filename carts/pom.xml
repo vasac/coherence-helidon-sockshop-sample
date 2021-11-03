@@ -146,7 +146,9 @@
                     </execution>
                 </executions>
                 <configuration>
+                    <reuseForks>false</reuseForks>
                     <systemPropertyVariables>
+                        <JAEGER_SERVICE_NAME>Carts</JAEGER_SERVICE_NAME>>
                         <coherence.metrics.http.enabled>true</coherence.metrics.http.enabled>
                     </systemPropertyVariables>
                 </configuration>
